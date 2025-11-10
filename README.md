@@ -29,3 +29,11 @@ src/
 ```
 
 Les styles globaux sont gérés via Tailwind CSS et `src/styles/global.css`.
+
+## Déploiement sur Vercel
+1. Assurez-vous que les dépendances sont installées (`npm install`).
+2. Connectez le dépôt à Vercel et sélectionnez le framework **Vite**.
+3. Vercel utilisera `npm run build` et déploiera le contenu du dossier `dist` (déclaré dans `vercel.json`).
+4. Les routes clientes sont réécrites vers `index.html`, ce qui garantit le fonctionnement de React Router sur toutes les URLs.
+
+Après le premier déploiement, chaque push sur la branche sélectionnée déclenchera automatiquement un nouveau déploiement.
