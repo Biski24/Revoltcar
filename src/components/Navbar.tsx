@@ -7,8 +7,7 @@ const navLinks = [
   { path: '/', label: 'Accueil' },
   { path: '/vehicules', label: 'Nos véhicules' },
   { path: '/partenaires', label: 'Partenaires' },
-  { path: '/faq', label: 'FAQ' },
-  { path: '/contact', label: 'Contact' }
+  { path: '/faq', label: 'FAQ' }
 ];
 
 export const Navbar = () => {
@@ -17,10 +16,12 @@ export const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link to="/" className="flex items-center gap-2 text-lg font-semibold text-accent">
-          <span className="flex h-10 w-10 items-center justify-center rounded-2xl bg-primary/10 text-2xl font-bold text-primary">
-            R
-          </span>
+        <Link to="/" className="flex items-center gap-3 text-lg font-semibold text-accent">
+          <img
+            src="/logo-revoltcar.png"
+            alt="Revoltcar"
+            className="h-10 w-auto rounded-xl bg-white p-1 shadow-sm"
+          />
           Revoltcar
         </Link>
         <nav className="hidden items-center gap-8 text-sm font-medium text-slate-600 md:flex">

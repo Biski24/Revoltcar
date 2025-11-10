@@ -13,7 +13,7 @@ export const Partenaires = () => {
   return (
     <div className="mx-auto max-w-6xl space-y-12 px-6 py-16">
       <SectionHeader
-        eyebrow="Alliances"
+        eyebrow="Partenaires"
         title="Des partenaires engagés pour la mobilité inclusive"
         description="Nous connectons grands assureurs, spécialistes du handicap et réseaux de garages de proximité."
       />
