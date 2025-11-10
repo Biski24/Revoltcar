@@ -1,0 +1,6 @@
+<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" rx="24" fill="#E6F8EF" />
+  <path d="M60 170C60 145 90 120 130 120H270C310 120 340 145 340 170" stroke="#1e8c4b" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="90" y="90" width="220" height="70" rx="20" fill="#2ecc71" />
+  <text x="200" y="150" text-anchor="middle" font-size="28" font-family="'Inter', sans-serif" fill="#0B3C1E">PMR ADAPTÉ</text>
+</svg>
