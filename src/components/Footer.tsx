@@ -15,7 +15,7 @@ export const Footer = () => {
           </p>
           <div className="flex items-center gap-3 text-sm text-slate-400">
             <MapPin className="h-4 w-4 text-primary" />
-            Paris & partout en France
+            Zone industrielle des Estroublans, Vitrolles
           </div>
         </div>
         <div className="space-y-3 text-sm">
