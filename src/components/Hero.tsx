@@ -49,9 +49,13 @@ export const Hero = () => {
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <p className="text-sm font-semibold text-slate-500">Satisfaction clients</p>
+<<<<<<< ours
                 <p className="text-2xl font-semibold text-primary">
                   4.9/5 <span aria-hidden="true">★</span>
                 </p>
+=======
+                <p className="text-2xl font-semibold text-primary">4.9/5</p>
+>>>>>>> theirs
               </div>
               <div className="h-2 w-full overflow-hidden rounded-full bg-slate-200">
                 <motion.div

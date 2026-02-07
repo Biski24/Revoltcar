@@ -101,7 +101,7 @@ export const Contact = () => {
                 value={formState.phone}
                 onChange={handleChange('phone')}
                 className="rounded-2xl border border-slate-200 px-4 py-3 text-sm text-slate-900 transition focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/40"
-                placeholder="06 00 00 00 00"
+                placeholder="04 84 00 00 00"
                 name="phone"
                 autoComplete="tel"
               />

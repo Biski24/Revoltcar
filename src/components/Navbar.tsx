@@ -7,7 +7,8 @@ const navLinks = [
   { path: '/', label: 'Accueil' },
   { path: '/vehicules', label: 'Nos véhicules' },
   { path: '/partenaires', label: 'Partenaires' },
-  { path: '/faq', label: 'FAQ' }
+  { path: '/faq', label: 'FAQ' },
+  { path: '/contact', label: 'Contact' }
 ];
 
 export const Navbar = () => {

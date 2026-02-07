@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import { Mail, Phone, MapPin, Instagram, Music2 } from 'lucide-react';
 
 export const Footer = () => {
   return (
@@ -15,7 +15,7 @@ export const Footer = () => {
           </p>
           <div className="flex items-center gap-3 text-sm text-slate-400">
             <MapPin className="h-4 w-4 text-primary" />
-            Zone industrielle des Estroublans, Vitrolles
+            74 chemin des amandiers, 13220 Châteauneuf-les-Martigues
           </div>
         </div>
         <div className="space-y-3 text-sm">
@@ -48,8 +48,30 @@ export const Footer = () => {
           </div>
           <div className="flex items-center gap-3 text-slate-300">
             <Phone className="h-4 w-4 text-primary" />
-            <a href="tel:+33184000000" className="transition hover:text-primary">
-              +33 1 84 00 00 00
+            <a href="tel:+33484000000" className="transition hover:text-primary">
+              04 84 00 00 00
+            </a>
+          </div>
+          <div className="flex items-center gap-3 text-slate-300">
+            <Instagram className="h-4 w-4 text-primary" />
+            <a
+              href="https://www.instagram.com/revoltcar13"
+              className="transition hover:text-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              @revoltcar13
+            </a>
+          </div>
+          <div className="flex items-center gap-3 text-slate-300">
+            <Music2 className="h-4 w-4 text-primary" />
+            <a
+              href="https://www.tiktok.com/@revoltcar13"
+              className="transition hover:text-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              @revoltcar13
             </a>
           </div>
           <p className="text-xs text-slate-600">© {new Date().getFullYear()} Revoltcar. Tous droits réservés.</p>
