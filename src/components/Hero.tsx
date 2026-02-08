@@ -46,16 +46,12 @@ export const Hero = () => {
           <div className="absolute -left-10 -top-10 h-32 w-32 rounded-full bg-primary/20 blur-3xl" aria-hidden="true" />
           <div className="absolute bottom-0 right-0 h-40 w-40 rounded-full bg-accent/10 blur-3xl" aria-hidden="true" />
           <div className="relative rounded-3xl border border-white/60 bg-white/60 p-8 shadow-xl shadow-primary/10 backdrop-blur">
-            <div className="space-y-4">
+              <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <p className="text-sm font-semibold text-slate-500">Satisfaction clients</p>
-<<<<<<< ours
                 <p className="text-2xl font-semibold text-primary">
                   4.9/5 <span aria-hidden="true">★</span>
                 </p>
-=======
-                <p className="text-2xl font-semibold text-primary">4.9/5</p>
->>>>>>> theirs
               </div>
               <div className="h-2 w-full overflow-hidden rounded-full bg-slate-200">
                 <motion.div

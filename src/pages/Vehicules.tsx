@@ -1,10 +1,7 @@
-<<<<<<< ours
-=======
 import zoeImg from '@/assets/zoe.png';
 import clioImg from '@/assets/clio-hybrid.png';
 import koleosImg from '@/assets/koleos.png';
 import pmrImg from '@/assets/pmr.png';
->>>>>>> theirs
 import { VehicleCard } from '@/components/VehicleCard';
 import { SectionHeader } from '@/components/SectionHeader';
 
@@ -12,38 +9,22 @@ const vehicles = [
   {
     title: 'Renault Zoé 100% électrique',
     description: 'Citadine idéale pour les trajets urbains, 300 km d’autonomie réelle et recharge rapide compatible.',
-<<<<<<< ours
-    image: '/renault-zoe.jpeg'
-=======
     image: zoeImg
->>>>>>> theirs
   },
   {
     title: 'Renault Clio Hybrid',
     description: 'Polyvalence et faible consommation pour les déplacements quotidiens, boîte automatique e-Tech.',
-<<<<<<< ours
-    image: '/renault-clio.jpg'
-=======
     image: clioImg
->>>>>>> theirs
   },
   {
     title: 'Renault Koleos Initiale Paris',
     description: 'SUV premium confortable pour les longues distances, intérieur cuir et aides à la conduite avancées.',
-<<<<<<< ours
-    image: '/renault-koleos.webp'
-=======
     image: koleosImg
->>>>>>> theirs
   },
   {
     title: 'Véhicule PMR adapté',
     description: 'Plateforme télescopique, ancrages sécurisés, accompagnement dédié pour conducteurs et passagers PMR.',
-<<<<<<< ours
-    image: '/vehicule-pmr.jpg'
-=======
     image: pmrImg
->>>>>>> theirs
   }
 ];
 
